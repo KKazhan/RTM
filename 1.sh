@@ -14,3 +14,4 @@ vim config.json
 
 
 
+cd ..
