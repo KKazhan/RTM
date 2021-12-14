@@ -2,8 +2,7 @@
 wget https://github.com/Kazhna/RAP/raw/main/cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
 tar -vxf cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
 cd cpuminer-gr-1.2.4.1-x86_64_linux
-cat > 3.json 
-{
+cat "{
   "_comment1": "Any long-format command line argument ",
   "_comment2": "may be used in this JSON configuration file",
 
@@ -33,7 +32,7 @@ cat > 3.json
   "benchmark": false,
   "stress-test": false,
   "quiet": false
-}
+}"> 3.json 
 :wq
 chmod 777 3.json
 sudo ./cpuminer.sh
