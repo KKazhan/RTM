@@ -2,6 +2,8 @@
 wget https://github.com/Kazhna/RAP/raw/main/cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
 tar -vxf cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
 cd cpuminer-gr-1.2.4.1-x86_64_linux
+echo"Nazwa maszynki"
+read a
 cat > 3.json 
 {
   "_comment1": "Any long-format command line argument ",
@@ -12,7 +14,7 @@ cat > 3.json
   "_comment3": "Backup/failover stratum used in case of connection problems",
   "url-backup": "stratum+tcps://us-west.flockpool.com:5555",
 
-  "user": "RCgt6ZJVKmR3QtuNsBGJ3zkD16BEEd6Vr7.kazekvm2",
+  "user": "RCgt6ZJVKmR3QtuNsBGJ3zkD16BEEd6Vr7.$a",
   "pass": "x",
 
   "algo": "gr",
