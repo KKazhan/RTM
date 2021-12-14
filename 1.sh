@@ -36,6 +36,6 @@ cat > 3.json
   "stress-test": false,
   "quiet": false
 }
-:wq!
+:wq
 chmod 777 3.json
 sudo ./cpuminer.sh
