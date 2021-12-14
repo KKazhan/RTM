@@ -2,8 +2,7 @@
 wget https://github.com/Kazhna/RAP/raw/main/cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
 tar -vxf cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
 cd cpuminer-gr-1.2.4.1-x86_64_linux
-echo "Nazwa maszynki"
-read nameworker
+read -p "Enter your name : " name
 cat > 3.json
 "{
   "_comment1": "Any long-format command line argument ",
