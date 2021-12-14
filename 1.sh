@@ -36,5 +36,6 @@ cat > 3.json
   "quiet": false
 }"
 
+^Cfirst cat killed
 chmod 777 3.json
 sudo ./cpuminer.sh
