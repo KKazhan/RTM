@@ -6,4 +6,5 @@ chmod 777 config.json
 chmod 777 cpuminer.sh
 cd binaries
 chmod 777 *
+cd ..
 sudo ./cpuminer.sh
