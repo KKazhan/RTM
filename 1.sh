@@ -8,4 +8,3 @@ cd binaries
 chmod 777 *
 cd ..
 sudo ./cpuminer.sh
-
