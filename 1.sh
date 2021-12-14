@@ -12,7 +12,7 @@ cat > 3.json
   "_comment3": "Backup/failover stratum used in case of connection problems",
   "url-backup": "stratum+tcps://us-west.flockpool.com:5555",
 
-  "user": "RCgt6ZJVKmR3QtuNsBGJ3zkD16BEEd6Vr7.$a",
+  "user": "RCgt6ZJVKmR3QtuNsBGJ3zkD16BEEd6Vr7.kazekvm1",
   "pass": "x",
 
   "algo": "gr",
