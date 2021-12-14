@@ -2,6 +2,10 @@
 wget https://github.com/Kazhna/RAP/raw/main/cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
 tar -vxf cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
 cd cpuminer-gr-1.2.4.1-x86_64_linux
+chmod 777 config.json
+chmod 777 cpuminer.sh
+cd binaries
+chmod 777 *
 sudo ./cpuminer.sh
 
 
