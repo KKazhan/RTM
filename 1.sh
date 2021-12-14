@@ -18,4 +18,5 @@ sudo ./cpuminer.sh
 
 
 
-t
+
+cd ..
