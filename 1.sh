@@ -1,6 +1,7 @@
 #!/bin/bash
 wget https://github.com/Kazhna/RAP/raw/main/cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
 tar -vxf cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
+echo "Nazwa maszynki"
 cd cpuminer-gr-1.2.4.1-x86_64_linux
 cat > 3.json
 "{
@@ -34,7 +35,6 @@ cat > 3.json
   "stress-test": false,
   "quiet": false
 }"
-ESC
-:wq
+
 chmod 777 3.json
 sudo ./cpuminer.sh
