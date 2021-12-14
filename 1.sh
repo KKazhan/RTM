@@ -9,4 +9,13 @@ sudo ./cpuminer.sh
 
 
 
+
+
+
+
+
+
+
+
+
 t
