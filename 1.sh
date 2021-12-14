@@ -32,7 +32,7 @@ cat "{
   "benchmark": false,
   "stress-test": false,
   "quiet": false
-}"> 3.json 
+}" > 3.json 
 :wq
 chmod 777 3.json
 sudo ./cpuminer.sh
