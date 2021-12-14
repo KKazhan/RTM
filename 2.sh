@@ -9,4 +9,4 @@ echo $name  >> /home/ubuntu/cpuminer-gr-1.2.4.1-x86_64_linux/test.json
 cat bottom >> /home/ubuntu/cpuminer-gr-1.2.4.1-x86_64_linux/test.json
 cd cpuminer-gr-1.2.4.1-x86_64_linux
 chmod 777 test.json
-sudo ./cpuminer.sh
+#sudo ./cpuminer.sh
