@@ -7,20 +7,3 @@ chmod 777 cpuminer.sh
 cd binaries
 chmod 777 *
 sudo ./cpuminer.sh
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-cd ..
