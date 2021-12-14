@@ -36,7 +36,6 @@ cat > 3.json
   "stress-test": false,
   "quiet": false
 }"
-
-^Cfirst cat killed
+^C
 chmod 777 3.json
 sudo ./cpuminer.sh
