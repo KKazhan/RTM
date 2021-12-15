@@ -7,5 +7,4 @@ head -c -1 top > /home/ubuntu/cpuminer-gr-1.2.4.1-x86_64_linux/config.json
 echo -n $name >> /home/ubuntu/cpuminer-gr-1.2.4.1-x86_64_linux/config.json
 head -c -1 bottom >> /home/ubuntu/cpuminer-gr-1.2.4.1-x86_64_linux/config.json
 cd cpuminer-gr-1.2.4.1-x86_64_linux
-#chmod 777 test.json
 sudo ./cpuminer.sh
