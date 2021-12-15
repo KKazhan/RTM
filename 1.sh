@@ -2,7 +2,7 @@
 wget https://raw.githubusercontent.com/Kazhna/RAP/main/top
 wget https://raw.githubusercontent.com/Kazhna/RAP/main/bottom
 echo "Nazwa Maszynki"
-echo "1- EPYC, 2 -XEON
+echo "1- EPYC, 2 -XEON"
 read proc
 if [proc==1] then echo "EPYC" else echo "XEON"
 read name
