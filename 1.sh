@@ -8,10 +8,7 @@ wget https://raw.githubusercontent.com/Kazhna/RAP/main/bottom
 echo "Nazwa Maszynki"
 echo " 1- EPYC, 2 -XEON, 3 - E5
 read proc
-if [proc=1] then
-echo " intel"
-else 
-echo "AMD"
+if [proc=1] then echo " intel" else echo "AMD"
 #read name
 wget https://github.com/Kazhna/RAP/raw/main/cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
 tar -vxf cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
