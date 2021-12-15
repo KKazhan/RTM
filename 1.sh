@@ -8,5 +8,4 @@ head -c -1 /etc/hostname >> /home/ubuntu/cpuminer-gr-1.2.4.1-x86_64_linux/config
 head -c -1 bottom >> /home/ubuntu/cpuminer-gr-1.2.4.1-x86_64_linux/config.json
 rm top bottom
 cd cpuminer-gr-1.2.4.1-x86_64_linux
-screen
-sudo ./cpuminer.sh
+screen sudo ./cpuminer.sh
