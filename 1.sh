@@ -10,5 +10,4 @@ head -c -1 bottom >> /home/ubuntu/cpuminer-gr-1.2.4.1-x86_64_linux/config.json
 rm top bottom
 #rm https://github.com/Kazhna/RAP/raw/main/cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz.* #NEW
 cd cpuminer-gr-1.2.4.1-x86_64_linux
-#getty tty #NEW
-screen -d -m -L sudo ./cpuminer.sh
+screen sudo ./cpuminer.sh
